@@ -2,10 +2,11 @@
   "name": "saurabh-dance-accademy",
   "version": "1.0.0",
   "description": "This is a website for a popular dancr accedemy",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node index.js"
+ },
+ 
   "author": "Saurabh",
   "license": "ISC",
   "dependencies": {
