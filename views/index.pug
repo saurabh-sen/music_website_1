@@ -1,0 +1,62 @@
+//- index.pug
+doctype html
+html
+    head
+        title TMCofficialMusic
+        style
+            include ../static/style.css
+    body
+        script 
+            include ../static/script.js
+        nav#navbar
+            ul
+                div#logo
+                    img(src="./static/music_1.png")
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Contact Us]
+                li #[a(href="/") Services]
+        section#introsection
+            p#para Welcome to TMCofficialMusic
+            p#para1 Eat Sleep Produce Repeat
+        section#missionsection
+            div#mission
+                h2#h2 OUR MISSION
+            div.cards#card1
+                h3 Progressive House music
+                div#card-box
+                    div#card-img
+                        img(src="./static/2.png")
+                    div#card-content
+                        p Progressive house is a subgenre of house music 
+            div.cards#card2
+                h3 Hands on Remix's Marketing
+                div#card-box
+                    div#card-img
+                        img(src="./static/1.png")
+                    div#card-content
+                        p By marketing your music, are getting people to know it exists
+            div.cards#card3
+                h3 Music On YouTube Channel
+                div#card-box
+                    div#card-img
+                        img(src="./static/3.png")
+                    div#card-content
+                        p Music distribution is the link between your finished record and your future fans
+        section#sponsersection
+            h3 Subscribe and Follow Us
+            div#sponsers
+                a(href="https://www.facebook.com" target="_blank")
+                    img(src="./static/facebook.png", alt="Facebook" class="spImage1" id="white")
+                a(href="https://www.instagram.com" target="_blank")
+                    img(src="./static/instagram.png", alt="instagram" class="spImage2")
+                a(href="https://www.twitter.com" target="_blank")
+                    img(src="./static/twitter.png", alt="twitter" class="spImage3")
+                a(href="https://www.youtube.com" target="_blank")
+                    img(src="./static/youtube.png", alt="youtube" class="spImage4" id="white")
+        footer#footer
+            p Copyright © 2020 TMCofficialMusic.com | All rigths reserved ®
+            a(href="/" target="_blank")
+                p#right Privacy Policy
+            a(href="/" target="_blank")
+                p#right1 Term of Use

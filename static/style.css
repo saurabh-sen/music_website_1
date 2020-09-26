@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgb(152 225 218);
+    height: 65px;
+    font-family: fantasy;
+    border-bottom: 4px solid black;
+    width: 100%;
+}
+#logo img{
+    display: flex;
+    color: black;
+    width: 63px;
+    height: 59px;
+    margin-left: 35px;
+    margin-top: 1px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    margin: 8px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    padding: 8px 16px;
+    align-items: center;
+    margin: 6px -10px 0px 0px;
+}
+#navbar li a:hover{
+    color: blueviolet;
+}
+#navbar li a:active{
+    color: wheat;
+}
+#introsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("./static/bg2.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 700px;
+    padding-bottom: 170px;
+}
+#para{
+    font-size: 35px;
+    color: white;
+    background-color: #b2e7ff52;
+    border-radius: 17px;
+    padding: 2px 21px;
+    margin: 9px;
+}
+#para1{
+    font-size: 22px;
+    color: white;
+    background-color: #b2e7ff52;
+    border-radius: 17px;
+    padding: 2px 21px;
+}
+#missionsection{
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin: auto;
+    background: center / cover no-repeat url("./static/bg1.jpg");
+}
+#missionsection #h2{
+    font-size: 44px;
+    text-align: center;
+    /* padding-top: 12px; */
+    color: white;
+    background-color: rgb(64, 103, 231);
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid aquamarine;
+}
+#mission{
+    width: 23%;
+    margin: auto;
+    padding-top: 80px;
+}
+#missionsection h3{
+    text-align: center;
+    padding: 1px 0px 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    width: 90%;
+    margin: 14px auto;
+    border-radius: 10px;
+}
+/* .cards{
+    border-radius: 30px;
+    height: 280px;
+    width: 20vw;
+    margin: 100px 24px 24px 143px;
+    display: inline-block;
+    background-color: rgb(64, 103, 231, 0.53);
+    border: 8px double aquamarine;
+    color: white;
+} */
+.cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+#card-img img{
+    height: 80px;
+    padding: 0px 9px;
+    filter: invert(1);
+    margin: 55px 6px;
+}
+#card-content p{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+}
+#sponsersection{
+    background: center / cover no-repeat url("./static/mission.jpg");
+    height: 500px;
+}
+#sponsersection h3{
+    font-size: 49px;
+    text-align: center;
+    padding-top: 26px;
+    color: white;
+}
+#sponsers img{
+    height: 96px;
+    padding: 4px 126px;
+    margin-top: 70px;
+}
+/* #sponsers .spImage2{
+    height: 92px;
+    margin-left: 210px;
+    margin-top: 132px;
+}
+#sponsers .spImage3{
+    height: 87px;
+    margin-left: 214px;
+    margin-top: 111px;
+}
+#sponsers .spImage4{
+    height: 78px;
+    margin-left: 214px;
+    margin-top: 111px;
+} */
+/* #sponsers .spImage1:hover{
+    height: 8%;
+    width: 8%;
+}
+#sponsers .spImage2:hover{
+    height: 6%;
+    width: 6%;
+}
+#sponsers .spImage3:hover{
+    height: 8%;
+    width: 8%;
+}
+#sponsers .spImage4:hover{
+    height: 12%;
+    width: 12%;
+} */
+#white{
+    filter: invert(1);
+}
+#footer{
+    background-color: black;
+    height: 80px;
+}
+#footer p{
+    display: inline-block;
+    font-size: 17px;
+    font-family: cursive;
+    color: white;
+}
+#footer #right{
+    display: inline-block;
+    justify-content: right;
+    padding: 27px;
+    color: white;
+    margin: 0px 61px;
+}
+#footer #right:hover{
+    /* display: inline-block;
+    justify-content: right;
+    padding-left: 295px;
+    padding-right: 90px; */
+    color: white;
+    text-decoration: underline;
+}
+#footer #right1{
+    display: inline-block;
+    justify-content: right;
+    padding-left: 2px;
+    color: white;
+}
+#footer #right1:hover{
+    /* display: inline-block;
+    justify-content: right;
+    padding-left: 2px; */
+    color: white;
+    text-decoration: underline;
+}
+
+/* Resposive design */
+
+.allcards{
+    width: 90%;
+    margin: 7px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards{
+    width: 20%;
+    background-color: rgb(64, 103, 231, 0.53);
+    border: 8px double aquamarine;
+    margin-top: 86px;
+    transition: 0.3s;
+}
+#card-box{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1000px){
+    .cards{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 620px){
+    .allcards{
+        width: 100%;
+    }
+    .cards{
+        width: 80%; 
+    }
+}
+@media (min-width:1000px){
+    .cards{
+        height: 470px;
+    }
+}
