@@ -1,18 +1,16 @@
 {
-  "name": "saurabh-dance-accademy",
+  "name": "tmcofficialmusic",
   "version": "1.0.0",
-  "description": "This is a website for a popular dancr accedemy",
-  "main": "server.js",
-  "scripts": {
-    "start": "node index.js"
- },
- 
-  "author": "Saurabh",
-  "license": "ISC",
+  "description": "this is a website for music lovers",
+  "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "pug": "^3.0.0",
-    "serve": "^11.3.2"
-  }
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Saurabh",
+  "license": "ISC"
 }
