@@ -1,7 +1,9 @@
+// Backend + DataBase
+
 const express = require("express");
 const path = require("path");
 const app = express();
-const bodyparser = require("body-parser");
+// const bodyparser = require("body-parser");
 const mongoose = require("mongoose");
 const port = 8000;
 // mongoose.connect('mongodb://localhost/ContactMusic', { useNewUrlParser: true });
